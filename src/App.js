@@ -3,7 +3,6 @@ import Navbar from "./components/FriendCard/Navbar";
 import Header from "./components/FriendCard/Header";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import friends from "./friends.json";
 import "./App.css";
 
