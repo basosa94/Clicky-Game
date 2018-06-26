@@ -14,7 +14,7 @@ render() {
                 Click an image to begin!
             </li>
             <li className="score">
-                Score:{this.props.score}
+                Score: {this.props.score}
             </li>
             </ul>
             </nav>

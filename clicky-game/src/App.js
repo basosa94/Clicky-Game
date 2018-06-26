@@ -18,8 +18,7 @@ class App extends Component {
 
   clickedImage = event => {
     const currentImage = event.target.alt;
-    const clickedFriends =
-    this.state.clicked.indexOf(currentImage)>-1;
+    const clickedFriends = this.state.clicked.indexOf(currentImage)>-1;
 
     if (clickedFriends) {
       this.setState ({
